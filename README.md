@@ -16,7 +16,7 @@ The bot currently provides multiple options for users.
 
 **Planned:**
 
-* Other options will be implemented in future development.
+* Additional options will be implemented in future development.
 
 ## Technologies Used
 
@@ -170,11 +170,11 @@ A database scheduled job is used to execute the Telegram message checking proces
 
 The job periodically runs `CHECK_TELEGRAM_MESSAGES` to check for new Telegram updates.
 
-This allows the bot to receive and process messages without requiring manual execution.
+This allows the bot to receive and process messages automatically without requiring manual execution.
 
 ## Security
 
-The Telegram Bot Token is not hardcoded in the project code.
+The Telegram Bot Token is not hardcoded in the project source code.
 
 The token is retrieved dynamically through a database function, keeping the actual token value separate from the source code and preventing it from being committed to GitHub.
 
@@ -186,7 +186,12 @@ l_token := GET_TELEGRAM_BOT_TOKEN();
 
 The actual token value is stored and managed separately from the project source code.
 
-```
+## Demo
+
+The GIF below demonstrates the Telegram Bot interaction, including the chat interface, dynamic responses, and the implemented Orders option.
+
+![Telegram Bot Demo](demo.gif)
+
 
 ## Project Goal
 
@@ -197,17 +202,8 @@ The goal of this experimental project is to explore the integration between Tele
 * Implement additional Telegram menu options.
 * Expand the Orders functionality.
 * Add interactive Telegram buttons.
-* Support images and videos.
 * Add more Telegram commands.
 * Improve conversation state management.
 * Store additional Telegram user information.
 * Connect Telegram interactions with additional Oracle database operations.
 * Add more advanced Telegram Bot features.
-
-
-
-## Demo
-
-The GIF below demonstrates the chat interface, dynamic chat status, message visibility, and file attachments.
-
-![Demo](video_bot.gif)
