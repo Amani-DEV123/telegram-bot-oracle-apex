@@ -190,7 +190,7 @@ The actual token value is stored and managed separately from the project source 
 
 The GIF below demonstrates the Telegram Bot interaction, including the chat interface, dynamic responses, and the implemented Orders option.
 
-![Telegram Bot Demo](demo.gif)
+![Telegram Bot Demo](video_bot.gif)
 
 
 ## Project Goal
