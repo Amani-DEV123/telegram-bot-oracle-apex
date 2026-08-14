@@ -205,6 +205,7 @@ The goal of this experimental project is to explore the integration between Tele
 * Add more advanced Telegram Bot features.
 
 
+
 ## Demo
 
 The GIF below demonstrates the chat interface, dynamic chat status, message visibility, and file attachments.
