@@ -203,3 +203,10 @@ The goal of this experimental project is to explore the integration between Tele
 * Store additional Telegram user information.
 * Connect Telegram interactions with additional Oracle database operations.
 * Add more advanced Telegram Bot features.
+
+
+## Demo
+
+The GIF below demonstrates the chat interface, dynamic chat status, message visibility, and file attachments.
+
+![Demo 2](video_bot.gif)
