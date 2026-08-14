@@ -174,14 +174,18 @@ This allows the bot to receive and process messages without requiring manual exe
 
 ## Security
 
-The Telegram Bot Token should never be committed to GitHub.
+The Telegram Bot Token is not hardcoded in the project code.
 
-Use a secure configuration method or replace the token with a placeholder before committing the project.
+The token is retrieved dynamically through a database function, keeping the actual token value separate from the source code and preventing it from being committed to GitHub.
 
 Example:
 
 ```sql
-l_token CONSTANT VARCHAR2(200) := 'YOUR_TELEGRAM_BOT_TOKEN';
+l_token := GET_TELEGRAM_BOT_TOKEN();
+```
+
+The actual token value is stored and managed separately from the project source code.
+
 ```
 
 ## Project Goal
